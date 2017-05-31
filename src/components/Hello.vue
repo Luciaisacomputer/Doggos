@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <app-header></app-header>
+    <div>
+      <counter></counter>
+    </div>
     <app-footer></app-footer>
   </div>
 </template>
@@ -9,6 +12,7 @@
 
 import appHeader from './Header.vue'
 import appFooter from './Footer.vue'
+import Counter from './Counter.vue'
 
 export default {
   name: 'hello',
@@ -17,7 +21,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  components: { appHeader, appFooter }
+  components: { appHeader, appFooter, Counter }
 }
 </script>
 

@@ -1,4 +1,3 @@
-
 <template>
   <div id="app">
     Clicked: {{ $store.state.count }} times, count is {{ evenOrOdd }}.
